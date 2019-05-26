@@ -1,0 +1,181 @@
+body {
+background:black;
+margin: 0px;
+font-family:Arial;
+font-size:14px;
+}
+
+
+#header {
+background-image:url(fitness.jpg);
+margin: 10px;
+height: 90px;
+border-radius: 5px;
+box-shadow:inset 0 0 10px black;
+}
+
+h1{
+color:rgb(0,0,0);
+font-family:Jokerman,Verdana;
+font-size:45px;
+text-align:center;
+position:relative;
+top:50%;
+-webkit-transform:translateY(-50%);
+-ms-transform:translateY(-50%);
+transform:translateY(-50%);
+}
+ 
+
+
+#nav {
+background:linear-gradient(rgba(0,0,0,1.0),rgba(255,0,0,1.0),rgba(255,255,0,1.0));
+margin: 10px;
+height: 30px;
+border-radius: 5px;
+}
+ 
+#nav ul {
+padding:0;
+margin:0;
+list-style-type:none;
+text-align:center
+}
+
+#nav li {
+display:inline;
+padding:15px;
+vertical-align:middle;
+}
+
+#nav a{
+text-decoration:none;
+padding:4.5px 8px 12.3px 8px;
+color:white;
+vertical-align:middle;
+}
+
+#nav a:hover{
+color:black;
+background-color:white;
+}
+
+
+
+.main {
+background-color: #e5e4d7;
+margin-left: 10px;
+margin-right: 320px;
+margin-top: 10px;
+margin-bottom: 10px;
+border-radius: 5px;
+padding: 20px;
+box-shadow:inset 0 0 30px darkblue;
+ 
+}
+
+#image{
+float:right;
+margin-top:0px;
+margin-right:10px;
+margin-bottom:10px;
+}
+
+#image:hover{
+opacity:0.8;
+}
+ 
+
+#image2{
+margin-right:60px;
+
+
+}
+
+#image2:hover{
+opacity:0.8;
+}
+
+.simpleheading{
+color:fuchsia;
+font-family:jokerman;
+font-size:25px;
+text-align:center;
+}
+
+p{
+line-height:32px;
+font-family:Arial;
+}
+
+
+.sideright {
+background-color: #e5e4d7;
+font-size: 105%;
+padding: 20px;
+width:260px;
+float: right;
+border-radius: 5px;
+margin-left:10px; margin-right:10px; margin-top:0px; margin-bottom:10px;
+clear:right;
+border: red 10px;
+box-shadow:inset 0 0 30px black;
+}
+
+.fillupspace {
+background-color: #e5e4d7;
+font-size: 105%;
+padding: 20px;
+width:260px;
+height:725px;
+float: right;
+border-radius: 5px;
+margin-left:10px; margin-right:10px; margin-top:0px; margin-bottom:10px;
+clear:right;
+border: red 10px;
+box-shadow:inset 0 0 30px black;
+}
+
+.imagesidebar {
+background-color: #e5e4d7;
+width:300px;
+height:167px;
+float:right;
+border-radius:5px;
+margin-top:0px;
+margin-right:10px; 
+margin-left:10px; 
+margin-bottom:10px; 
+
+clear:right;
+}
+
+.imagesidebar:hover{
+opacity:0.5;
+}
+
+#footer {
+background-color:#5c755e;
+margin: 10px;
+height: 36px;
+border-radius: 5px;
+clear:both;
+box-shadow:inset 0 0 20px white;
+
+}
+ 
+
+h2{
+color:rgb(0,0,0);
+font-family:Verdana;
+font-size:16px;
+text-align:center;
+position:relative;
+top:50%;
+-webkit-transform:translateY(-50%);
+-ms-transform:translateY(-50%);
+transform:translateY(-50%);
+}
+
+
+ 

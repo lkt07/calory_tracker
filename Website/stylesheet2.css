@@ -1,0 +1,185 @@
+body {
+background:black;
+margin: 0px;
+font-family:Arial;
+font-size:14px;
+}
+
+
+#header {
+background-image:url(fitness.jpg);
+margin: 10px;
+height: 90px;
+border-radius: 5px;
+box-shadow:inset 0 0 10px black;
+}
+
+h1{
+color:rgb(0,0,0);
+font-family:Jokerman,Verdana;
+font-size:45px;
+text-align:center;
+position:relative;
+top:50%;
+-webkit-transform:translateY(-50%);
+-ms-transform:translateY(-50%);
+transform:translateY(-50%);
+}
+ 
+
+
+#nav {
+background:linear-gradient(rgba(0,0,0,1.0),rgba(255,0,0,1.0),rgba(255,255,0,1.0));
+margin: 10px;
+height: 30px;
+border-radius: 5px;
+}
+ 
+#nav ul {
+padding:0;
+margin:0;
+list-style-type:none;
+text-align:center
+}
+
+#nav li {
+display:inline;
+padding:15px;
+vertical-align:middle;
+}
+
+#nav a{
+text-decoration:none;
+padding:4.5px 8px 12.3px 8px;
+color:white;
+vertical-align:middle;
+}
+
+#nav a:hover{
+color:black;
+background-color:white;
+}
+
+#header2 {
+background-image:url(tiles.jpg);
+margin: 10px;
+height: 230px;
+border-radius: 5px;
+box-shadow:inset 0 0 10px black;
+}
+
+h3{
+color:rgb(0,0,0);
+font-family:Arial,Verdana;
+font-size:20px;
+text-align:center;
+position:relative;
+top:50%;
+-webkit-transform:translateY(-50%);
+-ms-transform:translateY(-50%);
+transform:translateY(-50%);
+}
+
+#bigtext{ 
+font-family:Rockwell,Verdana;
+font-size:45px;
+}
+
+.main {
+background:linear-gradient(to right,rgba(255,255,255,1.0)2%,rgba(0,0,0,1.0));
+margin-left: 10px;
+margin-right: 10px;
+margin-top: 10px;
+margin-bottom: 10px;
+border-radius: 5px;
+padding: 20px;
+box-shadow:inset 0 0 30px black;
+ 
+}
+
+
+.main2{
+background-color:white;
+margin-left: 10px;
+margin-right: 440px;
+margin-top: 10px;
+margin-bottom: 10px;
+border-radius: 5px;
+padding: 20px;
+box-shadow:inset 0 0 30px darkblue;
+ 
+}
+
+
+p{
+line-height:32px;
+font-family:Arial;
+}
+
+
+
+
+#footer {
+background-color:#5c755e;
+margin: 10px;
+height: 36px;
+border-radius: 5px;
+clear:both;
+box-shadow:inset 0 0 20px white;
+
+}
+
+
+.sideright {
+color:white;
+display:table;
+background-color:#2c8f77;
+border:solid 2px black;
+font-size: 105%;
+padding: 20px;
+width:380px;
+float: right;
+border-radius: 5px;
+margin-left:10px; margin-right:10px; margin-top:0px; margin-bottom:10px;
+clear:right;
+border: red 10px;
+box-shadow:inset 0 0 30px black;
+}
+
+.row{
+display:table-row;
+}
+
+.row label{
+display:table-cell;
+padding:2px;
+text-align:left;
+}
+
+.row input{
+display:table-cell;
+padding:2px;
+}
+
+h2{
+color:rgb(0,0,0);
+font-family:Verdana;
+font-size:16px;
+text-align:center;
+position:relative;
+top:50%;
+-webkit-transform:translateY(-50%);
+-ms-transform:translateY(-50%);
+transform:translateY(-50%);
+}
+
+h4{
+line-height:25px;
+}
+
+#better{
+font-family:Verdana;
+font-size:20px;
+}
+
+

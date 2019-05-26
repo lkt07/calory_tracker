@@ -1,0 +1,134 @@
+﻿<!doctype html>
+<html>
+
+<!-- ==============THE HEAD TAG============= -->
+<head>
+<script src="jscode.js">
+</script>
+<title>Delta-Fitness_Pal</title>
+
+<link type="text/css" rel="stylesheet" href="stylesheet2.css">
+
+</head> 
+
+
+<!-- ==============THE BODY TAG============= -->
+
+<body>
+<!-- ==============HEADER============= -->
+<div id="header">
+<h1> Fitness Freak</h1>
+</div>
+<!-- ==============THE NAVIGATION BAR============= -->
+<div id="nav">
+     <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="fitcal.html">Fitcal</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+</div>
+<!-- ==============SIDEBAR1============= -->
+<div class="sideright">
+ 
+<form action="localStorage.html">
+
+
+Name:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+ <input type="text" id="txt" ></br> </br>  
+
+
+<input type="submit" onclick="passvalues();" Value="Local Storage"  />
+
+</form>
+</div>
+<!-- ==============SIDEBAR2============= -->
+<div class="sideright">
+<h2>Daily Requirement Calculator</h2>
+ 
+<form>
+ 
+<p class="row"> 
+Weight:&nbsp &nbsp &nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <input type="text" id="weight" ></br> </br>  </p>
+<p class="row"> 
+Gender Factor:&nbsp&nbsp&nbsp<input type="text" id="gender" > </br> </br></p>
+<p class="row"> 
+Lean Factor:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <input type="text" id="lean" > </br> </br></p>
+<p class="row"> 
+Activity Modifier:&nbsp<input type="text" id="activity"name=""></p>
+
+<p> The daily calorie requirement for this  person would be:<br>
+<span id="result"> </span>
+</p>
+<input type="button" onclick="multiplyBy()" Value="Submit" />
+</form>
+</div>
+<!-- ==============SIDEBAR3============= -->
+<div class="sideright">
+<h2>Enter  what you ate today:</h2>
+ 
+<form id="main">
+
+<p class="row"> 
+Food Name:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <input type="text" id="food" ></br> </br>  </p>
+
+<p> The food items you ate today :<br></p>
+<input type="button" onclick="additem()" Value="Enter Food Item" />
+
+</form>
+</div>
+
+
+
+
+
+<!-- ==============SIDEBAR4============= -->
+
+<div class="sideright">
+<h2>Number of meals:</h2>
+<input type="number" id="numberofmeals" ></br> </br> 
+
+<h2>Calories per meal:</h2>
+<form id="main2">
+
+</form>
+
+
+
+<input type="button" id="summation" onclick="add()" Value="Add Row"  /> 
+<br><br>
+<input type="button" onclick="calculate();warning();" Value="Calculate" />
+
+<p> The total calories consumed would be:<br>
+<span id="total"> </span>
+</p>
+
+</div>
+
+
+
+
+<!-- ==============MAIN============= -->
+<div class="main2">
+<p id="bigtext"><b>How to calculate your daily calorie needs</b></p> 
+<p id="better"><i><b>Step 1</b>: Find your body weight in kilograms (if you live in the US, just divide your weight in pounds by 2.2 to get your weight in kilograms).<br>
+
+<b>Step 2</b>: Multiply your weight in kilograms by 0.9 if you are a woman or 1.0 if you are a man.
+<br>
+<b>Step 3</b>: Multiply by 24
+<br>
+<b>Step 4</b>: Multiply by your “Lean Factor” from the table below
+<br> <img src="LeanFactor.jpg"><br> This number is called your Basal Metabolic Rate (BMR). It’s how many calories you would burn in a day if you just lay on the couch all day and did nothing. To find out how many calories you actually burn in a day, you need to multiply with your “Activity Modifier” from the table below.
+<br>
+<b>Step 5</b>: Multiply by Activity Modifier from the table below
+<br> <img src="Activity.jpg"><br>
+</i></p></div>
+
+
+<!-- ==============FOOTER============= -->
+<div id="footer">
+<h2> Made with &#10084 by Delta Inductee </h2>
+</div>
+
+</body>
+</html>
+

@@ -1,0 +1,24 @@
+<html>
+<head>
+<link type="text/css" rel="stylesheet" href="stylesheet3.css">
+<center>
+<hr/>
+</head>
+<body>
+<div id="header">
+<h1> Fitness Freak</h1>
+</div>
+<div id="nav">
+     <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="fitcal.html">Fitcal</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+</div>
+WELCOME <span id="resulting"></span>!
+<script>
+document.getElementById("resulting").innerHTML=localStorage.getItem("textvalue");
+</script>
+</center>
+</body>
+</html>
